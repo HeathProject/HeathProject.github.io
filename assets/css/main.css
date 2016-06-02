@@ -1,3 +1,57 @@
+#plop{
+padding: 4em 0 4em 40%;
+
+}
+
+.beepbop {
+  margin: 100px auto 0;
+  width: 192px;
+}
+
+.beeobop > div {
+  background: black;
+  border-radius: 50%;
+  float: left;
+  height: 36px;
+  margin-right: 12px;
+  width: 36px;
+}
+
+.beeobop > div {
+  animation: hop 1.2s infinite;
+}
+
+.beepbop > div:nth-child(1) {
+  animation-delay: .2s;
+}
+.beepbop > div:nth-child(2) {
+  animation-delay: .4s;
+}
+.beepbop > div:nth-child(3) {
+  animation-delay: .6s;
+}
+.beepbop > div:nth-child(4) {
+  animation-delay: .8s;
+}
+
+@keyframes hop {
+  0%   { margin-top: 0; }
+  30% { margin-top: -18px; }
+  100% { margin-top: 0; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 @import url("font-awesome.min.css");
 @import url("http://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic");
 
